@@ -58,7 +58,7 @@ public class BaseWeb {
     }
 
     public static void takeScreenshot(String name) {
-        File screenshotdirectory = new File("target/Screenshots");
+        File screenshotdirectory = new File("test-output/Screenshots");
 
         if (!screenshotdirectory.exists()) {
             screenshotdirectory.mkdir();
