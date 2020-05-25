@@ -71,7 +71,7 @@ public class BaseWeb {
 
             FileUtils.copyFile(source, new File(fileName));
 
-            System.out.println("Screenshot taken" + fileName);
+            System.out.println("Screenshot taken - " + fileName);
         } catch (Exception e) {
 
             System.out.println("Exception while taking screenshot " + e.getMessage());
