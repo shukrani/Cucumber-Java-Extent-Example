@@ -23,7 +23,7 @@ public class TestRunner {
 
 	@BeforeSuite
 	public void setupEnvironment() {
-		BaseWeb.setupEnvironment();
+
 
 	}
 
